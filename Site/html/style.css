@@ -1,20 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    height: 60px;
-    text-align: center;
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #00001F;
+    color: #FFFFFF;
+}
+
+main {
+    overflow: auto;
 }
 
 .NavBar{
-    padding-top: 5px;
+    background-color: #00002A;
+    max-width: 1220px;
+    padding: 24px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #navbar-title{
-    color: black;
+    color: #DDD0D0;
     font-size: 25px;
     font-weight: 550;
-    text-decoration: none;
+    text-transform: uppercase;
 }
